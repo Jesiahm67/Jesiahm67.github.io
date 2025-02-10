@@ -4,3 +4,17 @@ body {
     background-color: rgb(21, 94, 149);
     font-family: "Roboto", serif;
 }
+li {
+    display: inline-block;
+} 
+ul {
+    font-size: 22px;
+    margin-right: 16px;
+    background-color: rgb(113, 231, 231);
+    padding: 16px;
+    border: 4px dashed orange;
+}
+p {
+    font-size: 18px;
+    color: rgb(236, 157, 135);
+}
