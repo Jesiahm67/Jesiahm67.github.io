@@ -4,9 +4,7 @@ body {
     background-color: rgb(21, 94, 149);
     font-family: "Roboto", serif;
 }
-li {
-    display: inline-block;
-} 
+
 ul {
     font-size: 22px;
     margin-right: 16px;
@@ -17,4 +15,40 @@ ul {
 p {
     font-size: 18px;
     color: rgb(236, 157, 135);
+}
+.text-center {
+    text-align: center;
+}
+
+#homepage_link{
+    color: rgb(224, 172, 50);
+}
+#aboutme_link {
+    color: rgb(236, 27, 27);
+}
+
+#contact_link {
+    color: orange;
+}
+
+#interests_link{
+    color: yellow;
+}
+
+#projects_link{
+    color: green;
+}
+#resume_link{
+    color:rgb(24, 78, 115);
+}
+
+nav li {
+    display: inline-block;
+}
+
+#homepage_welcome {
+    color: purple
+}
+#projects_welcome{
+    
 }
