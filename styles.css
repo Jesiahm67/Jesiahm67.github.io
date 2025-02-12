@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    background-color: rgb(21, 94, 149);
+    background-color: rgba(19, 1, 19, 0.925);
     font-family: "Roboto", serif;
 }
 
@@ -11,18 +11,23 @@ ul {
     background-color: rgb(113, 231, 231);
     padding: 16px;
     border: 4px dashed orange;
+
 }
 p {
-    font-size: 18px;
-    color: rgb(236, 157, 135);
+    color: gold;
 }
 .text-center {
     text-align: center;
 }
 
-#homepage_link{
+.color {
+    color: aquamarine;
+}
+
+#homepage_link {
     color: rgb(224, 172, 50);
 }
+
 #aboutme_link {
     color: rgb(236, 27, 27);
 }
@@ -31,15 +36,16 @@ p {
     color: orange;
 }
 
-#interests_link{
+#interests_link {
     color: yellow;
 }
 
-#projects_link{
+#projects_link {
     color: green;
 }
-#resume_link{
-    color:rgb(24, 78, 115);
+
+#resume_link {
+    color: rgb(24, 78, 115);
 }
 
 nav li {
@@ -47,8 +53,21 @@ nav li {
 }
 
 #homepage_welcome {
-    color: purple
+    color: rgb(220, 156, 177)
 }
-#projects_welcome{
-    
+
+#projects_welcome {
+    color: greenyellow;
+}
+
+#aboutme_welcome {
+    color: rgb(236, 27, 27);
+}
+
+#contacts_welcome {
+    color: rgba(231, 119, 79, 0.763);
+}
+
+#interests_welcome {
+    color: rgb(213, 150, 32);
 }
