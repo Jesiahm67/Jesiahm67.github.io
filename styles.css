@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    background-color: rgba(19, 1, 19, 0.925);
+    background-color: rgb(91, 46, 91, 0.925);
     font-family: "Roboto", serif;
 }
 
@@ -9,12 +9,14 @@ ul {
     font-size: 22px;
     margin-right: 16px;
     background-color: rgb(113, 231, 231);
-    padding: 16px;
+    padding: 12px;
     border: 4px dashed orange;
 
 }
 p {
     color: gold;
+    justify-content: stretch;
+    margin-right: 18px;
 }
 .text-center {
     text-align: center;
@@ -47,13 +49,16 @@ p {
 #resume_link {
     color: rgb(24, 78, 115);
 }
-
+nav {
+    display: flex;
+    justify-content: space-around;
+}
 nav li {
     display: inline-block;
 }
 
 #homepage_welcome {
-    color: rgb(220, 156, 177)
+    color: rgb(255, 206, 8)
 }
 
 #projects_welcome {
