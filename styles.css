@@ -13,17 +13,21 @@ ul {
     border: 4px dashed orange;
 
 }
+
 p {
     color: gold;
     justify-content: stretch;
     margin-right: 18px;
+    font-size: 20px;
 }
+
 .text-center {
     text-align: center;
 }
 
 .color {
     color: aquamarine;
+
 }
 
 #homepage_link {
@@ -49,10 +53,12 @@ p {
 #resume_link {
     color: rgb(24, 78, 115);
 }
+
 nav {
     display: flex;
     justify-content: space-around;
 }
+
 nav li {
     display: inline-block;
 }
@@ -75,4 +81,10 @@ nav li {
 
 #interests_welcome {
     color: rgb(213, 150, 32);
+}
+
+div.fixed {
+    position: fixed;
+    right: 0px;
+    bottom:0px;
 }
