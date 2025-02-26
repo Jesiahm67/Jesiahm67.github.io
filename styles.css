@@ -13,15 +13,14 @@ ul {
     border: 4px dashed orange;
 
 }
-
+*{
+    text-align: center;
+}
 p {
     color: gold;
     justify-content: stretch;
     margin-right: 18px;
     font-size: 20px;
-}
-
-.text-center {
     text-align: center;
 }
 
@@ -44,6 +43,9 @@ p {
 
 #interests_link {
     color: yellow;
+}
+h3{
+    font-size: 24px;
 }
 
 #projects_link {
@@ -87,4 +89,41 @@ div.fixed {
     position: fixed;
     right: 0px;
     bottom:0px;
+}
+a:hover{
+ color: aqua;
+}
+#homepage_link:hover{
+    color: blueviolet;
+    background-color: aliceblue;
+}
+#aboutme_link:hover{
+    color: violet;
+    background-color: aqua;
+}
+#contact_link:hover{
+    color: blue;
+    background-color: blanchedalmond;
+}
+#interests_link:hover{
+    color: lightcoral;
+    background-color: bisque;
+}
+#projects_link:hover{
+    color: darkgoldenrod;
+    background-color: rgb(245, 245, 245);
+}
+#resume_link:hover{
+    color: salmon;
+    background-color: azure;
+}
+
+.link2{
+  font-size: 22px;
+}
+.link2:nth-child(odd) {
+   background-color: rgb(17, 127, 223);
+}
+.link2:nth-child(even) {
+   background-color: rgb(200, 154, 154);
 }
