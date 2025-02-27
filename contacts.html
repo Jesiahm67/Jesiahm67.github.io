@@ -1,26 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Contacts</title>
     <link rel="stylesheet" href="styles.css">
-    </head>
+</head>
+
 <body>
     <nav>
         <ul>
-          <li><a id="homepage_link" href="index.html">Homepage</a></li>
-          <li><a id="aboutme_link" href="aboutme.html">Aboutme</a></li>
-          <li><a id="interests_link" href="interests.html">Interests</a></li>
-          <li><a id="projects_link" href="projects.html">Projects</a></li>
-          <li><a id="resume_link" href="https://www.canva.com/design/DAGUUpMtZwY/iR54KaxNqhvyAGXh6CsyCw/view?utm_content=DAGUUpMtZwY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h36f162ccf9">Resume</a></li>
-       </ul>
-    </nav>  
-    <h1 class= "text-center" id="contacts_welcome">Contacts</h1>
+            <li><a id="homepage_link" href="index.html">Homepage</a></li>
+            <li><a id="aboutme_link" href="aboutme.html">Aboutme</a></li>
+            <li><a id="interests_link" href="interests.html">Interests</a></li>
+            <li><a id="projects_link" href="projects.html">Projects</a></li>
+            <li><a id="resume_link"
+                    href="https://www.canva.com/design/DAGUUpMtZwY/iR54KaxNqhvyAGXh6CsyCw/view?utm_content=DAGUUpMtZwY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h36f162ccf9">Resume</a>
+            </li>
+        </ul>
+    </nav>
+    <h1 class="text-center" id="contacts_welcome">Contacts</h1>
     <h3 class="color"> Welcome to my contacts page</h3>
-    <p class="color">email</p>
+
+    <form action="https://form-to-email.steam-center.workers.dev/" method="post">
+        <label style="color: red;">First name *</label>
+        <input type="text" required name="First name">
+        <br>
+        <br>
+        <label style="color: red;"> Last name *</label>
+        <input type="text" required name="Last name">
+        <br>
+        <br>
+        <label style="color: red;"> Email *</label>
+        <input type="email" required name="Email">
+        <br>
+        <br>
+        <label style="color: red;"> Favorite social app *</label>
+        <input type="text" required name="social_app">
+        <br>
+        <br>
+        <label style="color: red;"> Phone number *</label>
+        <input type="password" required name="telephone">
+        <p> How should I communicate with you?(choose one)</p>
+        <label style="color: red">Email *</label>
+        <input type="radio" required name="communicate_sugggestion">
+        <br>
+        <br>
+        <label style="color: red;">Social app *</label>
+        <input type="radio" required name="communicate_sugggestion">
+        <br>
+        <br>
+        <label style="color: red;">Phone number *</label>
+        <input type="radio" required name="communicate_sugggestion">
+        <br>
+        <br>
+        <label style="color: red;"> Text *</label>
+        <input type="radio" required name="communicate_sugggestion">
+        <p> Any Questions?</p>
+        <label style="color: chartreuse;">Type here</label>
+        <br>
+        <br>
+        <input type="text" name="answer">
+        <br>
+        <br>
+        <input type="submit">
+        <br>
+        <br>
+        <input type="reset">
+        <input name="send-to" value="Jminott@steamcenter.org" hidden>
+    </form>
     <div class="fixed">
-    <img src="Contacts.jpeg" alt="A phone, email and work email" width="300" height="300">
+        <img src="Contacts.jpeg" alt="A phone, email and work email" width="200" height="200">
     </div>
 </body>
+
 </html>
