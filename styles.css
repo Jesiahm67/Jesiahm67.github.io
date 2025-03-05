@@ -4,7 +4,6 @@ body {
     background-color: rgb(91, 46, 91, 0.925);
     font-family: "Roboto", serif;
 }
-
 ul {
     font-size: 22px;
     margin-right: 16px;
@@ -22,8 +21,16 @@ p {
     margin-right: 18px;
     font-size: 20px;
     text-align: center;
+    text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
 }
-
+ol{
+    color: gold;
+    justify-content: stretch;
+    margin-right: 18px;
+    font-size: 20px;
+    text-align: center;
+    text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
+}
 .color {
     color: aquamarine;
 
