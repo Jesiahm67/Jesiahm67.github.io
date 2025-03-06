@@ -12,9 +12,7 @@ ul {
     border: 4px dashed orange;
 
 }
-*{
-    text-align: center;
-}
+
 p {
     color: gold;
     justify-content: stretch;
@@ -53,6 +51,10 @@ ol{
 }
 h3{
     font-size: 24px;
+    text-align: center;
+}
+h1{
+    text-align: center;
 }
 
 #projects_link {
@@ -66,10 +68,12 @@ h3{
 nav {
     display: flex;
     justify-content: space-around;
+    text-align: center;
 }
 
 nav li {
     display: inline-block;
+    text-align: center;
 }
 
 #homepage_welcome {
@@ -133,4 +137,14 @@ a:hover{
 }
 .link2:nth-child(even) {
    background-color: rgb(200, 154, 154);
+}
+.image{
+ position: static;
+}
+
+@media screen and (max-width: 600px){
+
+}
+.icon{
+    text-align: center;
 }
