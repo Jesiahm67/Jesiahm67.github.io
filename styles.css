@@ -6,10 +6,10 @@ body {
 }
 ul {
     font-size: 22px;
-    margin-right: 16px;
+    margin-top: 22px;
     background-color: rgb(113, 231, 231);
-    padding: 12px;
-    border: 4px dashed orange;
+    padding: 24px;
+    border: 8px dashed orange;
 
 }
 
@@ -66,14 +66,14 @@ h1{
 }
 
 nav {
-    display: flex;
+    display: flexbox;
     justify-content: space-around;
     text-align: center;
 }
 
 nav li {
     display: inline-block;
-    text-align: center;
+    text-align: start;
 }
 
 #homepage_welcome {
@@ -100,6 +100,7 @@ div.fixed {
     position: fixed;
     right: 0px;
     bottom:0px;
+    display: flexbox;
 }
 a:hover{
  color: aqua;
@@ -140,11 +141,12 @@ a:hover{
 }
 .image{
  position: static;
+ text-align: center;
+ display:flexbox;
+ right: 0px;
+ bottom: 0px;
 }
 
 @media screen and (max-width: 600px){
 
-}
-.icon{
-    text-align: center;
 }

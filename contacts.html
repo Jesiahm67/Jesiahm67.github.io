@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Jesiah mostly uses youtube to listen to music or use social media. He would also uses spotify when he playes on his xbox">
+    <meta name="description"
+        content="Jesiah mostly uses youtube to listen to music or use social media. He would also uses spotify when he playes on his xbox">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="HTML, CSS, JavaScript,Jesiah">
     <meta name="author" content="Jesiah">
@@ -14,17 +15,16 @@
 <body>
     <nav>
         <ul>
-            <li><a id="homepage_link" href="index.html">Homepage</a></li>
+            <li><a id="homepage_link" href="index.html" >Homepage</a></li>
             <li><a id="aboutme_link" href="aboutme.html">Aboutme</a></li>
+            <li><a id="contact_link" href="contacts.html">Contacts</a></li>
             <li><a id="interests_link" href="interests.html">Interests</a></li>
             <li><a id="projects_link" href="projects.html">Projects</a></li>
-            <li><a id="resume_link"
-                    href="https://www.canva.com/design/DAGUUpMtZwY/iR54KaxNqhvyAGXh6CsyCw/view?utm_content=DAGUUpMtZwY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h36f162ccf9">Resume</a>
-            </li>
+            <li><a id="resume_link" href="https://www.canva.com/design/DAGUUpMtZwY/iR54KaxNqhvyAGXh6CsyCw/view?utm_content=DAGUUpMtZwY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h36f162ccf9">Resume</a></li>       
         </ul>
     </nav>
     <h1 class="text-center" id="contacts_welcome">Contacts</h1>
-    <i class="icon" style="color: aqua;" data-lucide="user-search"></i>
+    <p><i style="color: aqua;" data-lucide="user-search"></i></p>
     <h3 class="color"> Welcome to my contacts page</h3>
 
     <form action="https://form-to-email.steam-center.workers.dev/" method="post">
@@ -48,7 +48,7 @@
         <input type="password" required name="telephone">
         <br>
         <br>
-        <i class="icon" style="color: gold;" data-lucide="message-square-code"></i>
+        <p><i class="icon" style="color: gold;" data-lucide="message-square-code"></i></p>
         <p> How should I communicate with you?(choose one)</p>
         <label style="color: red">Email *</label>
         <input type="radio" required name="communicate_sugggestion">
@@ -66,7 +66,7 @@
         <input type="radio" required name="communicate_sugggestion">
         <br>
         <br>
-        <i class="icon" style="color: gold;" data-lucide="shield-question"></i>
+        <p> <i class="icon" style="color: gold;" data-lucide="shield-question"></i></p>
         <p> Any Questions?</p>
         <label style="color: chartreuse;">Type here</label>
         <br>
@@ -74,16 +74,19 @@
         <input type="text" name="answer">
         <br>
         <br>
-       <button>
-        <a href="mailto:jminott@brooklynsteamcenter.org">
-            <i class="icon" data-lucide="send"></i>
-            </a>    
-       </button>
-       
+        <p>
+            <button>
+                <a href="mailto:jminott@brooklynsteamcenter.org">
+                    <i class="icon" data-lucide="send"></i>
+                </a>
+            </button>
+        </p>
         <br>
-        <button type="reset">
-            <i class="icon" style="color: red;" data-lucide="rotate-ccw"></i>
-        </button>
+        <p>
+            <button type="reset">
+                <i class="icon" style="color: red;" data-lucide="rotate-ccw"></i>
+            </button>
+        </p>
         <input name="send-to" value="Jminott@brooklynsteamcenter.org" hidden>
     </form>
     <div class="fixed">
@@ -91,7 +94,7 @@
     </div>
     <script src="https://unpkg.com/lucide@latest"></script>
     <script>
-      lucide.createIcons();
+        lucide.createIcons();
     </script>
 </body>
 
