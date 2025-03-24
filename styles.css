@@ -150,3 +150,30 @@ a:hover{
 @media screen and (max-width: 600px){
 
 }
+.details{
+    color: gold;
+    font-size: 24px;
+}
+.border{
+    border: 5px rgb(47, 255, 193) dashed;
+}
+.icon{
+  width: 64px;
+  height: 64px;
+}
+
+/* For width smaller than 400px: */
+.icon {
+    text-indent: url('user-search');
+    text-indent: url("message-square-code");
+    text-indent: url("shield-question");
+  }
+  
+  /* For width 400px and larger: */
+  @media only screen and (min-width: 400px) {
+    .icon {
+        text-indent: url('user-search');
+        text-indent: url("message-square-code");
+        text-indent: url("shield-question")
+    }
+  }
