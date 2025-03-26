@@ -102,7 +102,7 @@ div.fixed {
     bottom:0px;
     display: flexbox;
 }
-a:hover{
+.link2:hover{
  color: aqua;
 }
 #homepage_link:hover{
@@ -126,19 +126,17 @@ a:hover{
     background-color: rgb(245, 245, 245);
 }
 #resume_link:hover{
-    color: salmon;
-    background-color: azure;
+    color: rgb(114, 180, 250);
+    background-color: rgb(244, 223, 230);
+}
+.link2{
+    font-size: 22px;
+    background-color: aqua;
+}
+.link2:hover{
+    background-color: blue ;
 }
 
-.link2{
-  font-size: 22px;
-}
-.link2:nth-child(odd) {
-   background-color: rgb(17, 127, 223);
-}
-.link2:nth-child(even) {
-   background-color: rgb(200, 154, 154);
-}
 .image{
  position: static;
  text-align: center;
@@ -146,34 +144,31 @@ a:hover{
  right: 0px;
  bottom: 0px;
 }
-
-@media screen and (max-width: 600px){
-
-}
 .details{
     color: gold;
     font-size: 24px;
 }
 .border{
-    border: 5px rgb(47, 255, 193) dashed;
+    border: 5px rgb(47, 255, 193) ridge;
 }
+  
 .icon{
   width: 64px;
   height: 64px;
 }
 
-/* For width smaller than 400px: */
-.icon {
-    text-indent: url('user-search');
-    text-indent: url("message-square-code");
-    text-indent: url("shield-question");
-  }
-  
-  /* For width 400px and larger: */
-  @media only screen and (min-width: 400px) {
+/* For width smaller than 768px: */
+@media only screen and (max-width: 768px) {
     .icon {
-        text-indent: url('user-search');
-        text-indent: url("message-square-code");
-        text-indent: url("shield-question")
+        width: 24px;
+        height: 24px;
     }
-  }
+}
+  
+  /* For width 769px and larger: */
+  @media only screen and (min-width: 769px) {
+    .icon {
+        width: 48px;
+        height: 48px;
+    }
+}
