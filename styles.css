@@ -137,13 +137,6 @@ div.fixed {
     background-color: blue ;
 }
 
-.image{
- position: static;
- text-align: center;
- display:flexbox;
- right: 0px;
- bottom: 0px;
-}
 .details{
     color: gold;
     font-size: 24px;
@@ -163,6 +156,9 @@ div.fixed {
         width: 24px;
         height: 24px;
     }
+    .imgbottom {
+        position:absolute;
+      }
 }
   
   /* For width 769px and larger: */
@@ -172,3 +168,8 @@ div.fixed {
         height: 48px;
     }
 }
+.imgbottom {
+position: absolute;
+bottom: 0px;
+right: 0px;
+  }
