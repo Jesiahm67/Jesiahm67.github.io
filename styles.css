@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    background-color: rgb(91, 46, 91, 0.925);
+    background-color: rgba(20, 2, 111, 0.925);
     font-family: "Roboto", serif;
 }
 ul {
@@ -157,8 +157,10 @@ div.fixed {
         height: 24px;
     }
     .imgbottom {
-        position:absolute;
-      }
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+          }
 }
   
   /* For width 769px and larger: */
