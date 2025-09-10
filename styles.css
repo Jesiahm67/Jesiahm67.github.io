@@ -144,7 +144,13 @@ div.fixed {
 .border{
     border: 5px rgb(47, 255, 193) ridge;
 }
-  
+
+.imgbottom {
+    float: right
+}
+.imgbottom2 {
+    float: left;
+}
 .icon{
   width: 64px;
   height: 64px;
@@ -156,11 +162,6 @@ div.fixed {
         width: 24px;
         height: 24px;
     }
-    .imgbottom {
-        position: absolute;
-        bottom: 0px;
-        right: 0px;
-          }
 }
   
   /* For width 769px and larger: */
@@ -170,8 +171,3 @@ div.fixed {
         height: 48px;
     }
 }
-.imgbottom {
-position: absolute;
-bottom: 0px;
-right: 0px;
-  }
