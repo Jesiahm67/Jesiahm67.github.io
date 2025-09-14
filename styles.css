@@ -3,7 +3,9 @@
 body {
     background-color: rgba(20, 2, 111, 0.925);
     font-family: "Roboto", serif;
+    background-image: url("Ocean.jpg");
 }
+
 ul {
     font-size: 22px;
     margin-top: 22px;
@@ -19,16 +21,18 @@ p {
     margin-right: 18px;
     font-size: 20px;
     text-align: center;
-    text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
+    text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
 }
-ol{
+
+ol {
     color: gold;
     justify-content: stretch;
     margin-right: 18px;
     font-size: 20px;
     text-align: center;
-    text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
+    text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
 }
+
 .color {
     color: aquamarine;
 
@@ -49,11 +53,13 @@ ol{
 #interests_link {
     color: yellow;
 }
-h3{
+
+h3 {
     font-size: 24px;
     text-align: center;
 }
-h1{
+
+h1 {
     text-align: center;
 }
 
@@ -89,7 +95,7 @@ nav li {
 }
 
 #contacts_welcome {
-    color: rgba(231, 119, 79, 0.763);
+    color: rgba(10, 254, 35, 0.763);
 }
 
 #interests_welcome {
@@ -99,62 +105,90 @@ nav li {
 div.fixed {
     position: fixed;
     right: 0px;
-    bottom:0px;
+    bottom: 0px;
     display: flexbox;
 }
-.link2:hover{
- color: aqua;
+
+.link2:hover {
+    color: aqua;
 }
-#homepage_link:hover{
+
+#homepage_link:hover {
     color: blueviolet;
     background-color: aliceblue;
 }
-#aboutme_link:hover{
+
+#aboutme_link:hover {
     color: violet;
     background-color: aqua;
 }
-#contact_link:hover{
+
+#contact_link:hover {
     color: blue;
     background-color: blanchedalmond;
 }
-#interests_link:hover{
+
+#interests_link:hover {
     color: lightcoral;
     background-color: bisque;
 }
-#projects_link:hover{
+
+#projects_link:hover {
     color: darkgoldenrod;
     background-color: rgb(245, 245, 245);
 }
-#resume_link:hover{
+
+#resume_link:hover {
     color: rgb(114, 180, 250);
     background-color: rgb(244, 223, 230);
 }
-.link2{
-    font-size: 22px;
+
+.link2 {
+    font-size: 28px;
     background-color: aqua;
 }
-.link2:hover{
-    background-color: blue ;
+
+.link2:hover {
+    background-color: blue;
 }
 
-.details{
+.details {
     color: gold;
     font-size: 24px;
 }
-.border{
-    border: 5px rgb(47, 255, 193) ridge;
-}
 
+.border {
+    border: 6px rgb(255, 47, 47) ridge;
+    font-size: 16px;
+}
+.label {
+    font-size: 24px;
+}
 .imgbottom {
     float: right
 }
+
 .imgbottom2 {
     float: left;
 }
-.icon{
-  width: 64px;
-  height: 64px;
+
+.img {
+    display: block;
+    margin: auto;
 }
+
+.icon {
+    width: 64px;
+    height: 64px;
+}
+
+.li {
+    color: red;
+    font-size: 28px;
+
+}
+
+
 
 /* For width smaller than 768px: */
 @media only screen and (max-width: 768px) {
@@ -163,11 +197,15 @@ div.fixed {
         height: 24px;
     }
 }
-  
-  /* For width 769px and larger: */
-  @media only screen and (min-width: 769px) {
+
+/* For width 769px and larger: */
+@media only screen and (min-width: 769px) {
     .icon {
         width: 48px;
         height: 48px;
+    }
+    .imgbottom{
+        width: 10%;
+        height: 10%;
     }
 }
