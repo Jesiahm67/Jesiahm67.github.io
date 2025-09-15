@@ -102,6 +102,18 @@ nav li {
     color: rgb(213, 150, 32);
 }
 
+.development {
+    color: rgb(255, 215, 0);
+    justify-content: stretch;
+    margin-right: 18px;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+}
+.development:hover{
+        background-color: blue;
+}
+
 div.fixed {
     position: fixed;
     right: 0px;
