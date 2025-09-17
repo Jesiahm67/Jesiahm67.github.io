@@ -209,6 +209,10 @@ div.fixed {
         height: 24px;
     }
 }
+    .imgbottom2 {
+        width: 50%;
+        height: 50%;
+    }
 
 /* For width 769px and larger: */
 @media only screen and (min-width: 769px) {
