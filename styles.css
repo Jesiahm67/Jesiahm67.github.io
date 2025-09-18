@@ -9,9 +9,9 @@ body {
 ul {
     font-size: 22px;
     margin-top: 22px;
-    background-color: rgb(113, 231, 231);
+    background-color: rgb(123, 13, 13);
     padding: 24px;
-    border: 8px dashed orange;
+    border: 8px dashed greenyellow;
 
 }
 
@@ -54,6 +54,17 @@ ol {
     color: yellow;
 }
 
+#projects_link {
+    color: green;
+}
+
+#resume_link {
+    color: rgb(8, 156, 255);
+}
+#work_exp {
+    color: rgb(245, 34, 245);
+}
+
 h3 {
     font-size: 24px;
     text-align: center;
@@ -62,15 +73,6 @@ h3 {
 h1 {
     text-align: center;
 }
-
-#projects_link {
-    color: green;
-}
-
-#resume_link {
-    color: rgb(24, 78, 115);
-}
-
 nav {
     display: flexbox;
     justify-content: space-around;
@@ -100,6 +102,9 @@ nav li {
 
 #interests_welcome {
     color: rgb(213, 150, 32);
+}
+#work_exp_welcome {
+    color: goldenrod;
 }
 
 .development {
@@ -153,6 +158,10 @@ div.fixed {
 #resume_link:hover {
     color: rgb(114, 180, 250);
     background-color: rgb(244, 223, 230);
+}
+#work_exp:hover {
+    color: antiquewhite;
+    background-color: blue;
 }
 
 .link2 {
@@ -208,11 +217,12 @@ div.fixed {
         width: 24px;
         height: 24px;
     }
-}
-    .imgbottom2 {
-        width: 50%;
-        height: 50%;
+    .img {
+        width: 45%;
+        height: 45%;
     }
+}
+
 
 /* For width 769px and larger: */
 @media only screen and (min-width: 769px) {
@@ -224,4 +234,5 @@ div.fixed {
         width: 10%;
         height: 10%;
     }
+
 }
