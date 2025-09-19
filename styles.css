@@ -16,7 +16,7 @@ ul {
 }
 
 p {
-    color: gold;
+    color: rgb(255, 215, 0);
     justify-content: stretch;
     margin-right: 18px;
     font-size: 20px;
@@ -61,7 +61,7 @@ ol {
 #resume_link {
     color: rgb(8, 156, 255);
 }
-#work_exp {
+#achievement_link {
     color: rgb(245, 34, 245);
 }
 
@@ -71,6 +71,9 @@ h3 {
 }
 
 h1 {
+    text-align: center;
+}
+h2 {
     text-align: center;
 }
 nav {
@@ -103,7 +106,7 @@ nav li {
 #interests_welcome {
     color: rgb(213, 150, 32);
 }
-#work_exp_welcome {
+#achievement_welcome {
     color: goldenrod;
 }
 
@@ -136,7 +139,7 @@ div.fixed {
 }
 
 #aboutme_link:hover {
-    color: violet;
+    color: rgb(27, 178, 14);
     background-color: aqua;
 }
 
@@ -159,7 +162,7 @@ div.fixed {
     color: rgb(114, 180, 250);
     background-color: rgb(244, 223, 230);
 }
-#work_exp:hover {
+#achievement_link:hover {
     color: antiquewhite;
     background-color: blue;
 }
