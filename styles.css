@@ -11,12 +11,12 @@ ul {
     margin-top: 22px;
     background-color: rgb(123, 13, 13);
     padding: 24px;
-    border: 8px dashed greenyellow;
+    border: 8px double greenyellow;
 
 }
 
 p {
-    color: rgb(255, 215, 0);
+    color: rgb(255, 0, 30);
     justify-content: stretch;
     margin-right: 18px;
     font-size: 20px;
@@ -25,7 +25,7 @@ p {
 }
 
 ol {
-    color: gold;
+    color: rgb(255, 0, 30);
     justify-content: stretch;
     margin-right: 18px;
     font-size: 20px;
@@ -111,7 +111,7 @@ nav li {
 }
 
 .development {
-    color: rgb(255, 215, 0);
+    color: rgb(255, 0, 30);
     justify-content: stretch;
     margin-right: 18px;
     font-size: 20px;
@@ -128,7 +128,18 @@ div.fixed {
     bottom: 0px;
     display: flexbox;
 }
-
+div.fixed2 {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    display: flexbox;
+}
+div.fixed3 {
+    position: fixed;
+    bottom: 0px;
+    left: 300px;
+    display: flexbox;
+}
 .link2:hover {
     color: aqua;
 }
@@ -182,7 +193,7 @@ div.fixed {
 }
 
 .border {
-    border: 6px rgb(255, 47, 47) ridge;
+    border: 6px rgb(255, 47, 47) outset;
     font-size: 16px;
 }
 .label {
@@ -200,7 +211,9 @@ div.fixed {
     display: block;
     margin: auto;
 }
-
+.imgright {
+    float: right;
+}
 .icon {
     width: 64px;
     height: 64px;
@@ -211,7 +224,12 @@ div.fixed {
     font-size: 28px;
 
 }
-
+.page{
+    font-size: 18px;
+}
+.nav{
+    font-size: 24px;
+}
 
 
 /* For width smaller than 768px: */
@@ -237,5 +255,28 @@ div.fixed {
         width: 10%;
         height: 10%;
     }
+    .page{
+        font-size: 28px;
+    }
+    .nav{
+        font-size: 34px;
+    }
+    .development{
+        font-size:28px;
+    }
+    .color{
+        font-size: 36px;
+    }
+    .label{
+        font-size: 36px;
+    }
+    .border {
+    border: 6px rgb(255, 47, 47) outset;
+    font-size: 22px;
+}
+.li {
+    color: red;
+    font-size: 36px;
 
+}
 }
